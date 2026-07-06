@@ -22,7 +22,6 @@ supabase: Client = create_client(
     options=ClientOptions(schema=schema)
 )
 
-
 st.title("NYISO Energy Load Dashboard")
 
 interval = st.selectbox(
